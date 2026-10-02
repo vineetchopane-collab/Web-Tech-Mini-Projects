@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TaskFlow - Advanced To-Do List</title>
+    <link rel="stylesheet" href="./to-do-list.css">
+
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>TaskFlow</h1>
+        <p class="subtitle">Advanced To-Do List</p>
+
+        <div class="task-form">
+            <input type="text" id="TaskTitle" placeholder="Enter task">
+
+            <select id="Category">
+                <option value="Study">Study</option>
+                <option value="Work">Work</option>
+                <option value="Personal">Personal</option>
+                <option value="Other">Other</option>
+            </select>
+
+            <select id="Priority">
+                <option value="Low">Low</option>
+                <option value="Medium">Medium</option>
+                <option value="High">High</option>
+            </select>
+
+            <input type="date" id="DueDate">
+
+            <button id="AddTask">Add Task</button>
+        </div>
+
+        <div class="top-controls">
+
+            <input type="text" id="Search" placeholder="Search tasks...">
+
+            <button class="filter-btn active" data-filter="all">
+                All
+            </button>
+
+            <button class="filter-btn" data-filter="pending">
+                Pending
+            </button>
+
+            <button class="filter-btn" data-filter="completed">
+                Completed
+            </button>
+
+            <select id="Sort">
+                <option value="newest">Newest</option>
+                <option value="oldest">Oldest</option>
+                <option value="priority">Priority</option>
+                <option value="dueDate">Due Date</option>
+            </select>
+
+            <button id="DarkMode">Dark Mode</button>
+
+        </div>
+
+        <div class="stats">
+
+            <div class="stat">
+                <h3 id="TotalCount">0</h3>
+                <span>Total</span>
+            </div>
+
+            <div class="stat">
+                <h3 id="PendingCount">0</h3>
+                <span>Pending</span>
+            </div>
+
+            <div class="stat">
+                <h3 id="CompletedCount">0</h3>
+                <span>Completed</span>
+            </div>
+
+        </div>
+
+        <ul id="TaskList"></ul>
+
+        <div class="bottom-controls">
+            <button id="ClearCompleted">Clear Completed</button>
+            <button id="ClearAll">Clear All</button>
+        </div>
+
+    </div>
+
+    <script src="./to-do-list.js"></script>
+
+</body>
+</html>
