@@ -40,3 +40,20 @@ A simple **Quiz App** built using **HTML, CSS, and JavaScript**. This project di
 
 This project was created as a **JavaScript practice project** to improve my understanding of DOM manipulation, events, arrays, objects, and basic problem-solving.
 
+To-Do List App ✅
+
+A simple and responsive To-Do List web application built with HTML, CSS, and JavaScript. It helps you manage daily tasks with ease, with a clean interface and a dark mode option.
+
+Features
+Add Tasks: Add new tasks to your list quickly.
+Delete Tasks: Remove tasks you no longer need.
+Edit Tasks: Update the text of an existing task.
+Search Tasks: Find tasks instantly by typing keywords.
+Mark as Completed / Not Completed: Toggle a task's status with one click.
+Filter Tasks: View All, Completed, or Not Completed tasks.
+Dark Mode: Switch between light and dark themes for comfortable viewing.
+Technologies Used
+HTML5
+CSS3
+JavaScript
+
