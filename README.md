@@ -1,6 +1,6 @@
 # Web-Tech-Mini-Projects
 
-# JavaScript Quiz App 📝
+# 1.JavaScript Quiz App 📝
 
 A simple **Quiz App** built using **HTML, CSS, and JavaScript**. This project displays multiple-choice questions, checks the selected answer, keeps track of the score, and shows the final result.
 
@@ -40,7 +40,7 @@ A simple **Quiz App** built using **HTML, CSS, and JavaScript**. This project di
 
 This project was created as a **JavaScript practice project** to improve my understanding of DOM manipulation, events, arrays, objects, and basic problem-solving.
 
-To-Do List App ✅
+2.To-Do List App ✅
 
 A simple and responsive To-Do List web application built with HTML, CSS, and JavaScript. It helps you manage daily tasks with ease, with a clean interface and a dark mode option.
 
@@ -56,4 +56,22 @@ Technologies Used
 HTML5
 CSS3
 JavaScript
+
+3. Guess Number Project
+
+A simple number guessing game where the user tries to guess a randomly generated number between 1 and 10.
+
+**Features:**
+- Random number generation
+- User number input
+- Check the guessed number
+- Too High / Too Low result
+- Correct answer message
+- Clear button
+- Enter key support
+
+**Technologies:**
+- HTML
+- CSS
+- JavaScript
 
